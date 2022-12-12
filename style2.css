@@ -1,0 +1,223 @@
+.back{
+    height: 638px;
+    background: rgb(221,0,32);
+background: linear-gradient( rgba(221,0,32,1) 0%, rgba(152,0,101,1) 35%, rgba(40,0,212,1) 100%);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.tech{
+    width: 180px;
+    margin-right: 240px;
+}
+.Home{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+    
+}
+.Home1{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+}
+.Home2{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+}
+.Home3{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+}
+.Home4{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+}
+.Star{
+    display: flex;
+    width: 200px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.yazi{
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: justify;
+    width: 550px;
+    
+    
+    
+}
+
+
+.yazi2{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: justify;
+    /* width: 550px; */
+}
+.yazi3{
+    display: flex;
+    margin-left: -55px;
+    
+}
+.sekiller{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.s1{
+    width: 200px;
+    margin-left: 20px;
+}
+.s2{
+    width: 200px;
+    margin-left: 20px;
+}
+.s3{
+    width: 200px;
+    margin-left: 20px;
+}
+.s4{
+    width: 200px;
+    margin-left: 20px;
+}
+.s5{
+    width: 200px;
+    margin-left: 20px;
+}
+.s6{
+    width: 200px;
+    margin-left: 20px;
+}
+.yazi3{
+    display: flex;
+    
+}
+.yazi44{
+    margin-left: 10px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    
+   .tech{
+    margin: 0 auto;
+   } 
+  
+    .flex-container{
+        display: block;
+    }
+        
+    
+
+    .buttonlar{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .Home{
+        margin-top: 10px;
+    }
+    .Home1{
+        margin-top: 10px;
+    }
+    .Home2{
+        margin-top: 10px;
+    }
+    .Home3{
+        margin-top: 10px;
+    }
+    .Home4{
+        margin-top: 10px;
+    }
+    .Star{
+        display: block;
+        margin-left: -144px;
+    }
+    .yazi3{
+        display: block;
+    }
+    .yazi44{
+        padding-left: 44px;
+    }
+    .sekiller{
+        display: block;
+        
+    }
+    .yazi{
+        width: 300px;
+    }
+    .back{
+        background-color: none;
+        background: gray;
+    }
+}
+@media (min-width:767px) and (max-width:1024px){
+    .flex-container{
+        
+        display: flex;
+    }
+
+    .tech{
+        margin: 0 auto;
+    }
+    .buttonlar{
+        padding-left: 194px;
+    }
+    .flex-container{
+       width: 100%;
+    }
+    .yazi3{
+        margin-left: -151px;
+    }
+    .s1 {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .s2 {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .s3 {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .s4 {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .s5 {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .yazi{width: 100%;
+    }
+    .back{
+        height: 100%;
+    }
+    .Star{
+        padding-left: 155px;
+    }
+    .tech{
+        display: flex;
+    }
+}
