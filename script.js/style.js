@@ -1,5 +1,10 @@
-function selamVer() { 
-    alert("Welcome");
-  }
-  let func = selamVer;    // (2) kopyala
-  selamVer(); // Merhaba    //    k
+
+var a=confirm("Zehmet olmasa cerezleri qebul et");
+var b;
+if(a==false){
+    alert("Cerezleri qebul etmediniz");
+    open(location,"_self").close();
+}
+else{
+    b=alert("Cerezleri qebul etdiniz")
+}
